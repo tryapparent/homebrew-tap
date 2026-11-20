@@ -1,8 +1,8 @@
 cask "apparent" do
-  version "0.22.12"
-  sha256 "6721404f1629a0515dcda410f3128efd3e35cce0f68de305fedc89ee1ede9aee"
+  version "0.22.13"
+  sha256 "dbf909ad1cf91cd6523db4ae6981f4a61a9e30223db9d9546c186fa843c21f7f"
 
-  url "https://github.com/tryapparent/apparent/releases/download/v0.22.12/Apparent-Preview-#{version}-arm64.dmg",
+  url "https://github.com/tryapparent/apparent/releases/download/v0.22.13/Apparent-Preview-#{version}-arm64.dmg",
       verified: "github.com/tryapparent/apparent/"
   name "Apparent Preview"
   desc "Record your screen, voice, and annotations for coding agents"
@@ -17,5 +17,5 @@ cask "apparent" do
   depends_on arch: :arm64
   depends_on macos: :sequoia
 
-  app "Apparent Preview.app"
+  app "Install apparent.app/Contents/SharedSupport/Apparent Preview.app", target: "Apparent Preview.app"
 end
