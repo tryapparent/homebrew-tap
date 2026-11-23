@@ -1,8 +1,8 @@
 cask "apparent" do
-  version "0.22.14"
-  sha256 "5d726da1802ab823a5887513cd38e348978e0f832cfc6906709de20295926d85"
+  version "0.22.15"
+  sha256 "fb087240de5b0f86336a5652ba4cab360a85cc9e5bc5a54bd665a55aef31aec8"
 
-  url "https://github.com/tryapparent/apparent/releases/download/v0.22.14/Apparent-Preview-#{version}-arm64.dmg",
+  url "https://github.com/tryapparent/apparent/releases/download/v0.22.15/Apparent-Preview-#{version}-arm64.dmg",
       verified: "github.com/tryapparent/apparent/"
   name "Apparent Preview"
   desc "Record your screen, voice, and annotations for coding agents"
